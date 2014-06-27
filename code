@@ -1,0 +1,14 @@
+ToFoot 1.0
+======
+package toS;
+import java.util.*;
+
+public class ConvertTometrics {
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Введите футы");
+		double foot = scanner.nextDouble();
+		System.out.print(30.48 * foot+" сантиметров в " + foot+" футах");
+	}
+	
+}
