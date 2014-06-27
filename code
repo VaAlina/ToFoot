@@ -1,3 +1,33 @@
+ToFoot 1.1//Works only case 1.
+======
+package toS;
+import java.util.*;
+
+public class ConvertTometrics {
+	public static void main(String[] args){
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Выберите операцию, путём ввода её номера. \n"
+				+ "1.Фут в сантиметр.\n"
+				+ "2.Сантиметр в фут.\n"
+				+ "3.Дюйм в сантиметр.\n"
+				+ "4.Сантиметр в дюйм.\n");
+		int operation = scanner.nextInt();
+		switch(operation){
+		case 1:
+			System.out.println("Введите футы");
+			double foot = scanner.nextDouble();
+			System.out.print(30.48 * foot+" сантиметров в " + foot+" футах");
+		case 2:
+		case 3:
+		case 4:
+		
+		}
+		
+
+	}
+	
+}
+
 ToFoot 1.0
 ======
 package toS;
